@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "psupbin"
+version = "0.1.0"
+description = "Binary operations: OR, AND, XOR, NOT for binary strings"
+authors = [
+    { name="phannoiershit", email="buiphan022109@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3"
+license = { file=None }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/phannoiershit/psupbin"
+Repository = "https://github.com/phannoiershit/psupbin"
+Issues = "https://github.com/phannoiershit/psupbin/issues"
